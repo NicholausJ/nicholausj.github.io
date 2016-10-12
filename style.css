@@ -42,7 +42,7 @@ body {
 
 p {
   margin: 0;
-  padding: 25px;
+  padding: 2%;
   font-size: 120%;
 }
 
@@ -56,6 +56,12 @@ p {
   border-style: solid;
   border-radius: 50%;  
 }
+
+#section1a { 
+  font-size: 200%;
+  text-align: center;
+  background-color: #DDD;
+  }
 
 #section1 { background-color: #DDD;}
 
