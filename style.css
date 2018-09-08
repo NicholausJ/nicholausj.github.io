@@ -66,7 +66,11 @@ p {
 
 #section1 { background-color: #DDD;}
 
-#section2 { background-color: #BBB;}
+#section2 { 
+  background: linear-gradient(35deg, hsl(180, 100%, 50%)
+    ,hsl(300, 100%, 50%));
+}
+
 
 #section3 { background-color: #DDD;}
 
