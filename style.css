@@ -109,7 +109,7 @@ p {
 }
 
 #section1a { 
-	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background: linear-gradient(-45deg, #99ffcc, #66ffff, #33ccff, #0099ff);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
@@ -120,14 +120,14 @@ p {
   }
 
 #section1 { 
-	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background: linear-gradient(-45deg, #99ffcc, #66ffff, #33ccff, #0099ff);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;}
 
 #section2 { 
-  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background: linear-gradient(-45deg, #99ffcc, #66ffff, #33ccff, #0099ff);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
@@ -136,7 +136,7 @@ p {
 
 
 #section3 { 
-background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+background: linear-gradient(-45deg, #99ffcc, #66ffff, #33ccff, #0099ff);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
@@ -155,7 +155,7 @@ background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
   color: #FFF;
   background-color: #777;
   z-index: 3;
-	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background: linear-gradient(-45deg, #99ffcc, #66ffff, #33ccff, #0099ff);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
