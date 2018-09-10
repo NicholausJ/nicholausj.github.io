@@ -108,6 +108,10 @@ background: linear-gradient(90deg, #204060, #19334d, #132639, #112233, #0d1a26, 
 
 #success_message { display: none;}
 
+legend {
+	color: white;
+}
+
 #footer-nav {
   width: 100%;
   right: 0;
