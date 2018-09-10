@@ -6,7 +6,7 @@ body {
 	width: 100wh;
 	height: 90vh;
 	color: #fff;
-	background: linear-gradient(315deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background: linear-gradient(315deg, #9966ff, #660066, #23A6D5, #23D5AB);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
@@ -119,7 +119,7 @@ background: linear-gradient(90deg, #204060, #19334d, #132639, #112233, #0d1a26, 
   color: #FFF;
   background-color: #777;
   z-index: 3;
-	background: linear-gradient(315deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background: linear-gradient(315deg,  #9966ff, #660066, #23A6D5, #23D5AB);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
