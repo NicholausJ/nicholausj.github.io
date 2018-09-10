@@ -115,7 +115,7 @@ background: linear-gradient(90deg, #204060, #19334d, #132639, #112233, #0d1a26, 
   margin-bottom: 0;
   padding: 1% 1% 1% 1%;
   overflow: hidden;
-  color: #FFF;
+  color: white;
   background-color: #123;
   z-index: 3;
 }
