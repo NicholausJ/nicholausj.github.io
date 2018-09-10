@@ -117,13 +117,8 @@ background: linear-gradient(90deg, #204060, #19334d, #132639, #112233, #0d1a26, 
   padding: 1% 1% 1% 1%;
   overflow: hidden;
   color: #FFF;
-  background-color: #777;
+  background-color: #123;
   z-index: 3;
-	background: linear-gradient(315deg,  #9966ff, #660066, #23A6D5, #23D5AB);
-	background-size: 400% 400%;
-	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
 }
 
 #share-buttons img {
