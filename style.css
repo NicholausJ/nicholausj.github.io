@@ -3,7 +3,7 @@
 }
 
 body {
-	width: 100wh;
+	width: 100vw;
 	height: 90vh;
 	color: #fff;
 	background:linear-gradient(to bottom right, hsla(350, 100%, 50%, 0.55), hsla(200, 100%, 50%, 0.55)),
