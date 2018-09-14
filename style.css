@@ -127,10 +127,11 @@ legend {
 }
 
 #share-buttons img {
-padding: 5%;
-border: 0;
-box-shadow: 0;
-display: inline;
+	padding: 5%;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
+	color: white;
 }
 
 @-webkit-keyframes Gradient {
