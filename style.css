@@ -142,6 +142,22 @@ i.fa-facebook:hover {
   color: #3B5998;
 }
 
+i.fa-google-plus:hover {
+  color: #dd4b39;
+}
+
+i.fa-linkedin:hover {
+  color: #0077B5;
+}
+
+i.fa-twitch:hover {
+  color: #6441a5;
+}
+
+i.fa-github:hover {
+  color: #333;
+}
+
 @-webkit-keyframes Gradient {
 	0% {
 		background-position: 0% 50%
