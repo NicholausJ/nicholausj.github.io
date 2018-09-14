@@ -74,7 +74,7 @@ p {
 }
 
 #section1a { 
-	background: linear-gradient(45deg, #EEE, #CCC);
+	background: linear-gradient(to bottom right, #DDD, #BBB);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
@@ -85,14 +85,14 @@ p {
   }
 
 #section1 { 
-	background: linear-gradient(45deg, #EEE, #CCC);
+	background: linear-gradient(to bottom right, #DDD, #BBB);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;}
 
 #section2 { 
-  background: linear-gradient(45deg, #EEE, #CCC);
+  background: linear-gradient(to bottom right, #DDD, #BBB);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
@@ -101,7 +101,7 @@ p {
 
 
 #section3 { 
-background: linear-gradient(45deg, #EEE, #CCC);
+background: linear-gradient(to bottom right, #DDD, #BBB);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
@@ -138,8 +138,8 @@ i {
   color: white;
 }
 
-i:hover {
-	color: #3B5998;
+i.fa-facebook:hover {
+  color: #3B5998;
 }
 
 @-webkit-keyframes Gradient {
