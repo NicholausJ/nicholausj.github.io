@@ -77,9 +77,6 @@ p {
 #section1a { 
 	background: linear-gradient(to bottom right, #AAA, #888);
 	background-size: 400% 400%;
-	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
   font-size: 200%;
   text-align: center;
   background-color: #DDD;
@@ -88,25 +85,19 @@ p {
 #section1 { 
 	background: linear-gradient(to bottom right, #AAA, #888);
 	background-size: 400% 400%;
-	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;}
+}
 
 #section2 { 
   background: linear-gradient(to bottom right, #AAA, #888);
 	background-size: 400% 400%;
-	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
+
 }
 
 
 #section3 { 
 background: linear-gradient(to bottom right, #AAA, #888);
 	background-size: 400% 400%;
-	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
+
 }
 
 #success_message { display: none;}
