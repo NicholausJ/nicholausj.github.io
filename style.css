@@ -143,7 +143,7 @@ i.fa-facebook:hover {
 }
 
 i.fa-google-plus:hover {
-  color: #dd4b39;
+  color: #DD4B39;
 }
 
 i.fa-linkedin:hover {
@@ -151,11 +151,19 @@ i.fa-linkedin:hover {
 }
 
 i.fa-twitch:hover {
-  color: #6441a5;
+  color: #6441A5;
+}
+
+i.fa-instagram:hover {
+  color: #405DE6;
+}
+
+i.fa-youtube:hover {
+  color: #FF0000;
 }
 
 i.fa-github:hover {
-  color: #333;
+  color: #4078C0;
 }
 
 @-webkit-keyframes Gradient {
