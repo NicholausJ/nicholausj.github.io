@@ -6,13 +6,14 @@ body {
 	width: 100wh;
 	height: 90vh;
 	color: #fff;
-	background: linear-gradient(45deg, rgba(204, 0, 153, 0.7), rgba(153, 102, 255, 0.7), rgba(102, 0, 102, 0.7),
-		rgba(35, 166, 213, 0.7), rgba(35, 213, 172, 0.7));
-		/*url("http://wallpapercave.com/wp/K0Ga2HM.jpg");*/
+	background:linear-gradient(to bottom right, hsla(350, 100%, 50%, 0.55), hsla(200, 100%, 50%, 0.55)),
+		url("http://wallpapercave.com/wp/K0Ga2HM.jpg");
 	background-size: 400% 400%;
+	/*
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
+	*/
 }
 
 h1,
