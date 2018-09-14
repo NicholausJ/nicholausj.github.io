@@ -39,7 +39,7 @@ h6 {
   padding: 0 0 0 0;
   overflow: hidden;
   list-style-type: none;
-  background-color: #123;
+  background-color: #BBB;
   width: 100%;
 }
 
@@ -122,7 +122,7 @@ legend {
   padding: 1% 1% 1% 1%;
   overflow: hidden;
   color: white;
-  background-color: #123;
+  background-color: #BBB;
   z-index: 3;
 }
 
