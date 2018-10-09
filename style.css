@@ -159,11 +159,6 @@ h6 {
   background-color: #505;
 }
 
-p {
-  margin: 0;
-  padding: 2%;
-  font-size: 120%;
-}
 
 #profileImg {
   margin: 0 auto;
@@ -177,7 +172,6 @@ p {
 }
 
 #section1a { 
-	background: linear-gradient(to bottom right, #AAA, #888);
 	background-size: 400% 400%;
   font-size: 200%;
   text-align: center;
@@ -185,19 +179,16 @@ p {
   }
 
 #section1 { 
-	background: linear-gradient(to bottom right, #AAA, #888);
 	background-size: 400% 400%;
 }
 
 #section2 { 
-  background: linear-gradient(to bottom right, #AAA, #888);
 	background-size: 400% 400%;
 
 }
 
 
 #section3 { 
-background: linear-gradient(to bottom right, #AAA, #888);
 	background-size: 400% 400%;
 
 }
