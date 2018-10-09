@@ -181,16 +181,19 @@ h6 {
 
 #section1 { 
 	background-size: 400% 400%;
+	color: black;
 }
 
 #section2 { 
 	background-size: 400% 400%;
+	color: black;
 
 }
 
 
 #section3 { 
 	background-size: 400% 400%;
+	color: black;
 
 }
 
@@ -211,7 +214,7 @@ legend {
   text-decoration: none;
   background-color: white;
   letter-spacing: 2px;
-  z-index: 3;
+  z-index: 2;
 }
 
 #footer-nav {
@@ -223,7 +226,6 @@ legend {
   overflow: hidden;
   color: white;
   background-color: #555;
-  z-index: 3;
 }
 
 #share-buttons img {
