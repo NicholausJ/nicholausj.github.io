@@ -172,10 +172,11 @@ h6 {
 }
 
 #section1a { 
+	
 	background-size: 400% 400%;
+	color: black;
   font-size: 200%;
   text-align: center;
-  background-color: #DDD;
   }
 
 #section1 { 
