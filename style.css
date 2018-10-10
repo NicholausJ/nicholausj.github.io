@@ -3,6 +3,7 @@
 ul.topnav li.icon {
   display: none;
 }
+
 /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
 @media screen and (max-width: 680px) {
   ul.topnav li:not(:first-child) {
@@ -13,6 +14,7 @@ ul.topnav li.icon {
     display: inline-block;
   }
 }
+
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
 @media screen and (max-width: 680px) {
   ul.topnav.responsive {
@@ -36,6 +38,7 @@ ul.topnav li.icon {
 .alert-success {
   display: none;
 }
+
 /* Remove margins and padding from the list, and add a background color */
 ul.topnav {
   list-style-type: none;
@@ -46,10 +49,12 @@ ul.topnav {
   background-color: #013253;
   z-index: 3;
 }
+
 /* Float the list items side by side */
 ul.topnav li {
   float: left;
 }
+
 /* Style the links inside the list items */
 ul.topnav li a {
   display: inline-block;
@@ -69,7 +74,6 @@ ul.topnav li a {
   overflow: hidden;
   list-style-type: none;
   background: linear-gradient(to right, #313, #123);
-  /*background-color: #123;*/
   width: 100%;
 }
 
@@ -90,8 +94,8 @@ body {
   width: 100%;
   background: linear-gradient(
       to right,
-      hsla(350, 100%, 50%, 0.35),
-      hsla(200, 100%, 50%, 0.35)
+      hsla(350, 100%, 50%, 0.55),
+      hsla(200, 100%, 50%, 0.55)
     ),
     url("http://wallpapercave.com/wp/K0Ga2HM.jpg");
   color: white;
@@ -130,24 +134,24 @@ h6 {
 
 #section1a {
   background-size: 400% 400%;
-  color: black;
+  color: white;
   font-size: 200%;
   text-align: center;
 }
 
 #section1 {
   background-size: 400% 400%;
-  color: black;
+  color: white;
 }
 
 #section2 {
   background-size: 400% 400%;
-  color: black;
+  color: white;
 }
 
 #section3 {
   background-size: 400% 400%;
-  color: black;
+  color: white;
 }
 
 #success_message {
@@ -169,7 +173,7 @@ legend {
   text-decoration: none;
   background-color: white;
   letter-spacing: 2px;
-  z-index: 2;
+  z-index: 3;
 }
 
 #footer-nav {
@@ -178,7 +182,7 @@ legend {
   left: 0;
   margin-bottom: 0;
   padding: 1% 1% 1% 1%;
-  overflow: hidden;
+  /*overflow: hidden;*/
   color: white;
   background-color: #555;
 }
