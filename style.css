@@ -73,7 +73,7 @@ ul.topnav li a {
   padding: 0 0 0 0;
   overflow: hidden;
   list-style-type: none;
-  background: linear-gradient(to right, #313, #123);
+  background: linear-gradient(to right, rgba(57, 19, 57, 0.9), rgba(19, 38, 57, 0.9));
   width: 100%;
 }
 
