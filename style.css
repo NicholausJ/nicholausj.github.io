@@ -184,7 +184,7 @@ legend {
   padding: 1% 1% 1% 1%;
   /*overflow: hidden;*/
   color: white;
-  background-color: #555;
+  background-color: rgba(85, 85, 85, 0.9);
 }
 
 #share-buttons img {
