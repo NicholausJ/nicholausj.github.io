@@ -222,7 +222,7 @@ legend {
   padding: 1% 1% 1% 1%;
   /*overflow: hidden;*/
   color: white;
-  background-color: rgba(85, 85, 85, 0.9);
+  background-color: rgba(162, 42, 122, 0.9);
 }
 
 #share-buttons img {
@@ -263,40 +263,4 @@ i.fa-youtube:hover {
 
 i.fa-github:hover {
   color: #4078c0;
-}
-
-@-webkit-keyframes Gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-@-moz-keyframes Gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-@keyframes Gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
 }
