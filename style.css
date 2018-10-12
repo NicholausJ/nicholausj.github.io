@@ -1,4 +1,3 @@
-
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.topnav li.icon {
   display: none;
@@ -283,6 +282,10 @@ legend {
   overflow: hidden;
   color: white;
   background-color: rgba(163, 41, 122, 0.8);
+}
+
+img {
+  padding: 3%;
 }
 
 /* Social Media Icons  Section*/
