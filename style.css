@@ -329,3 +329,11 @@ i.fa-youtube:hover {
 i.fa-github:hover {
   color: #4078c0;
 }
+
+i.fa-codepen:hover {
+  color: #0ebeff;
+}
+
+i.fa-fire:hover {
+  color: #006400;
+}
