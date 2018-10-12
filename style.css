@@ -152,7 +152,7 @@ html {
       hsla(350, 100%, 50%, 0.65),
       hsla(200, 100%, 50%, 0.65)
     ),
-    url("http://www.kinyu-z.net/data/wallpapers/229/1505317.jpg");
+    url("https://nicholausj.github.io/1505317.jpg");
   color: white;
   padding: 0px 0 0 0;
   z-index: 1;
@@ -179,19 +179,19 @@ html {
 .bgimg1 {
   top: 0;
   padding: 0 0 0 0;
-  background-image: url("http://www.kinyu-z.net/data/wallpapers/229/1505317.jpg");
+  background-image: url("https://nicholausj.github.io/1505317.jpg");
   min-height: 100%;
 }
 /* Second image (Portfolio) */
 .bgimg2 {
-  background-image: url("https://nicholausj.github.io/1505262.jpg ");
+  background-image: url("https://nicholausj.github.io/technology-light-effect.jpg");
   min-height: 400px;
   min-width: 100%;
 }
 
 /* Third image (Contact) */
 .bgimg3 {
-  background-image: url("http://unsplash.com/photos/TV2gg2kZD1o/download");
+  background-image: url("https://nicholausj.github.io/2018-10-08-Contact.jpg");
   min-height: 400px;
 }
 
