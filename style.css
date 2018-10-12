@@ -35,16 +35,12 @@ ul.topnav li.icon {
   }
 }
 
-.alert-success {
-  display: none;
-}
-
 /* Remove margins and padding from the list, and add a background color */
 ul.topnav {
   list-style-type: none;
   letter-spacing: 2px;
   margin: 0;
-  padding: 0;
+  padding: 16px 16px;
   overflow: hidden;
   background-color: #013253;
   z-index: 3;
@@ -60,7 +56,7 @@ ul.topnav li a {
   display: inline-block;
   color: #f2f2f2;
   text-align: center;
-  padding: 10px 10px;
+  padding: 16px 16px;
   text-decoration: none;
   transition: 0.3s;
   font-size: 12px;
@@ -73,7 +69,12 @@ ul.topnav li a {
   padding: 0 0 0 0;
   overflow: hidden;
   list-style-type: none;
-  background: linear-gradient(to right, rgba(57, 19, 57, 0.9), rgba(19, 38, 57, 0.9));
+  background: linear-gradient(
+    to right,
+    rgba(57, 19, 57, 0.9),
+    rgba(19, 38, 57, 0.9)
+  );
+  /*background-color: #123;*/
   width: 100%;
 }
 
@@ -92,54 +93,106 @@ ul.topnav li a {
 
 /* Dropdown Button */
 .dropbtn {
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
+  color: white;
+  border: none;
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-    display: none;
-    position: relative;
-    background: linear-gradient(to right, rgba(19, 38, 57, 0.9), rgba(57, 19, 57, 0.9));
-    min-width: 160px;
+  display: none;
+  position: relative;
+  background: linear-gradient(
+    to right,
+    rgba(19, 38, 57, 0.9),
+    rgba(57, 19, 57, 0.9)
+  );
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+  text-decoration: none;
+  display: inline-block;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: inline-block;
+}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: rgba(19, 38, 57, 0.9);}
+.dropdown:hover .dropbtn {
+  background-color: rgba(19, 38, 57, 0.9);
+}
 
-body {
+.w3-wide {
+  letter-spacing: 10px;
+}
+.w3-hover-opacity {
+  cursor: pointer;
+}
+
+/* Body and Internals */
+body,
+html {
+  height: 100%;
   width: 100%;
   background: linear-gradient(
       to right,
-      hsla(350, 100%, 50%, 0.55),
-      hsla(200, 100%, 50%, 0.55)
+      hsla(350, 100%, 50%, 0.65),
+      hsla(200, 100%, 50%, 0.65)
     ),
-    url("1505317.jpg");
+    url("http://www.kinyu-z.net/data/wallpapers/229/1505317.jpg");
   color: white;
-  padding: 56px 0 0 0;
+  padding: 0px 0 0 0;
   z-index: 1;
   text-decoration: none;
+  background-size: 100% 100%;
+}
+
+#about {
+  font-size: 1.2em;
+}
+
+/* Create a Parallax Effect */
+.bgimg1,
+.bgimg2,
+.bgimg3 {
+  opacity: 0.7;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg1 {
+  top: 0;
+  padding: 0 0 0 0;
+  background-image: url("http://www.kinyu-z.net/data/wallpapers/229/1505317.jpg");
+  min-height: 100%;
+}
+/* Second image (Portfolio) */
+.bgimg2 {
+  background-image: url("https://nicholausj.github.io/1505262.jpg ");
+  min-height: 400px;
+  min-width: 100%;
+}
+
+/* Third image (Contact) */
+.bgimg3 {
+  background-image: url("http://unsplash.com/photos/TV2gg2kZD1o/download");
+  min-height: 400px;
 }
 
 p {
@@ -163,6 +216,7 @@ h6 {
   left: 0;
 }
 
+/* Thin Gray Border for Containers */
 .thin-gray-border {
   border-color: gray;
   border-width: 1px;
@@ -192,14 +246,20 @@ h6 {
   color: white;
 }
 
-#success_message {
-  display: none;
-}
-
+/* Contact Format */
 legend {
   color: white;
 }
 
+#success_message {
+  display: none;
+}
+
+.alert-success {
+  display: none;
+}
+
+/* Footer Styling */
 .footer {
   position: fixed;
   left: 0;
@@ -211,7 +271,7 @@ legend {
   text-decoration: none;
   background-color: white;
   letter-spacing: 2px;
-  z-index: 3;
+  z-index: 2;
 }
 
 #footer-nav {
@@ -220,17 +280,19 @@ legend {
   left: 0;
   margin-bottom: 0;
   padding: 1% 1% 1% 1%;
-  /*overflow: hidden;*/
+  overflow: hidden;
   color: white;
-  background-color: rgba(162, 42, 122, 0.9);
+  background-color: rgba(163, 41, 122, 0.8);
 }
 
+/* Social Media Icons  Section*/
 #share-buttons img {
   padding: 5%;
   border: 0;
   box-shadow: 0;
   display: inline;
   color: white;
+  z-index: 3;
 }
 
 i {
