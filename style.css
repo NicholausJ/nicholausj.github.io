@@ -166,7 +166,8 @@ html {
 /* Create a Parallax Effect */
 .bgimg1,
 .bgimg2,
-.bgimg3 {
+.bgimg3,
+.bgimg4 {
   opacity: 0.7;
   background-attachment: fixed;
   background-position: center;
@@ -174,26 +175,34 @@ html {
   background-size: cover;
 }
 
-/* First image (Logo. Full height) */
+/* First image (Splash. Full height) */
 .bgimg1 {
   top: 0;
   padding: 0 0 0 0;
   background-image: url("https://nicholausj.github.io/1505317.jpg");
   min-height: 100%;
 }
-/* Second image (Portfolio) */
+/* Second image (About) */
 .bgimg2 {
+  top: 0;
+  padding: 0 0 0 0;
   background-image: url("https://nicholausj.github.io/technology-light-effect.jpg");
   min-height: 400px;
-  min-width: 100%;
+  max-width: 100%
 }
 
-/* Third image (Contact) */
+/* Third image (Portfolio) */
 .bgimg3 {
+  background-image: url("https://nicholausj.github.io/technology-light-effect.jpg");
+  min-height: 400px;
+  max-width: 100%
+}
+
+/* Fourth image (Contact) */
+.bgimg4 {
   background-image: url("https://nicholausj.github.io/2018-10-08-Contact.jpg");
   min-height: 400px;
 }
-
 p {
   margin: 0;
   padding: 2%;
