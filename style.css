@@ -244,6 +244,7 @@ h6 {
 #section1 {
   background-size: 400% 400%;
   color: white;
+  columns: 2;
 }
 
 #section2 {
@@ -254,6 +255,7 @@ h6 {
 #section3 {
   background-size: 400% 400%;
   color: white;
+  colomns: 2;
 }
 
 /* Contact Format */
