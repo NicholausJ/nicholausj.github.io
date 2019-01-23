@@ -15,7 +15,7 @@ $(function()
     {
         if(data.result == 'success')
         {
-            $('form#reused_form').hide();
+            $('form#my_contact_form').hide();
             $('#success_message').show();
             $('#error_message').hide();
         }
@@ -46,7 +46,7 @@ $(function()
         }//else
     }
 
-	$('#reused_form').submit(function(e)
+	$('#my_contact_form').submit(function(e)
       {
         e.preventDefault();
 
