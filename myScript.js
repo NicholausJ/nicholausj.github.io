@@ -8,7 +8,7 @@ function myFunction1() {
   }
 }
 
-/* Form submission handling */
+/* Form submission handling 
 $(function()
 {
     function after_form_submitted(data)
@@ -71,3 +71,5 @@ $(function()
 
       });
 });
+
+*/
