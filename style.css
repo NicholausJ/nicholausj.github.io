@@ -287,7 +287,7 @@ form{
 }
 
 fieldset{
-  border: 3px groove rgba(1,1,1,.1); 
+  border: 3px groove rgba(255, 106, 0, 0.8); 
   border-radius: 25px;
   font-family: 'Raleway', sans-serif;
 }
