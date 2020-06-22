@@ -301,21 +301,21 @@ fieldset{
 
 input {
   font-family: 'Raleway', sans-serif;
-  border: 3px groove rgba(255, 106, 0, 0.8); 
+  border: 3px solid rgba(255, 106, 0, 0.8); 
   border-radius: 10Px;
   background-color: WHITE;
 }
 
 textarea {
   font-family: 'Raleway', sans-serif;
-  border: 3px groove rgba(255, 106, 0, 0.8); 
+  border: 3px solid rgba(255, 106, 0, 0.8); 
   border-radius: 10Px;
   background-color: WHITE;
 }
 
 .btn {
   font-family: 'Raleway', sans-serif;
-  border: 3px groove rgba(255, 106, 0, 0.8); 
+  border: 3px solid rgba(255, 106, 0, 0.8); 
   border-radius: 10Px;
   background-color: #a9d;
   color: white;
