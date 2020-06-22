@@ -281,13 +281,20 @@ h6 {
 }
 
 /* Contact Format */
-
 form{
   color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+fieldset{
+  border: 3px groove rgba(1,1,1,.1); 
+  border-radius: 25px;
+  font-family: 'Raleway', sans-serif;
 }
 
 #contact-form{
   border:none;
+  font-family: 'Raleway', sans-serif;
 }
 
 #success_message {
