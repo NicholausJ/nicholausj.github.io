@@ -280,7 +280,8 @@ h6 {
 
 }
 
-/* Contact Format */
+/* Contact Form Styling */
+
 form{
   color: white;
   font-family: 'Raleway', sans-serif;
@@ -293,8 +294,35 @@ fieldset{
 }
 
 #contact-form{
-  border:none;
+  border: 3px groove rgba(255, 106, 0, 0.8); 
+  border-radius: 25px;
   font-family: 'Raleway', sans-serif;
+}
+
+input {
+  font-family: 'Raleway', sans-serif;
+  border: 3px groove rgba(255, 106, 0, 0.8); 
+  border-radius: 10Px;
+  background-color: WHITE;
+}
+
+textarea {
+  font-family: 'Raleway', sans-serif;
+  border: 3px groove rgba(255, 106, 0, 0.8); 
+  border-radius: 10Px;
+  background-color: WHITE;
+}
+
+.btn {
+  font-family: 'Raleway', sans-serif;
+  border: 3px groove rgba(255, 106, 0, 0.8); 
+  border-radius: 10Px;
+  background-color: WHITE;
+}
+
+.btn:hover {
+  background-color: #3d3;
+  color: white;
 }
 
 #success_message {
